@@ -4,10 +4,10 @@ Thanks for your interest in contributing to this project.
 
 ## Development Workflow
 
-1. Create a feature branch off `main`.
+1. Work on `test`, or a feature branch off it (see Branches).
 2. Make focused, well-described commits.
 3. Describe your changes in a new release entry at the top of `CHANGELOG.md` (see Versioning below).
-4. Open a pull request against `main`.
+4. Open a pull request from `test` into `main`.
 
 ## Keeping the profile current
 
@@ -16,6 +16,10 @@ Thanks for your interest in contributing to this project.
 - List every public StuxDigital repository in **Our Projects**, by its full name ("Stux.Digital Status", not "Status"), with its site. Leave private repos out, and remove retired ones
 - Keep the status page link in **Service Status** pointing at [status.stux.digital](https://status.stux.digital)
 - Use the light/dark `<picture>` logo and icons from `global.media.stux.digital`, not a single image
+
+## Branches
+
+Work happens on `test` (or a branch off it), never on `main`. Changes reach `main` only through a pull request from `test`, which needs CI to pass and is reviewed and merged by Leo; the release commit and tag are made on `test` (`git push origin test --tags`) and go live when the pull request is merged.
 
 ## Versioning
 
