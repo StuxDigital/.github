@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://global.media.stux.digital/logo.png" alt="Stux.Digital" width="360">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.digital/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.digital/logo-dark.png"><img src="https://global.media.stux.digital/logo-dark.png" height="100" alt="Stux.Digital Logo"></picture>
 </p>
 
 # .github
@@ -15,7 +15,7 @@ This repository contains the organization-wide configuration files for the Stux.
 ## What's Included
 
 - **Profile** — the public org profile shown at [github.com/StuxDigital](https://github.com/StuxDigital) (`profile/README.md`)
-- **Community Files** — contributing guidelines and other org-wide defaults
+- **Activity stats** — `.github/workflows/generateMetrics.yml` renders the profile's "Our Activity" card daily onto the `metrics` branch
 
 ## How It Works
 
@@ -34,7 +34,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the development workflow and release 
 
 ## Versioning
 
-This project uses [Date Versioning](https://datevers.ing): each release is numbered by its UTC release date as `YY.MM.DD` (for example `26.10.23`), with `-1`, `-2`… for later releases the same day. See [CHANGELOG.md](CHANGELOG.md) for what changed in each release.
+This project uses [Date Versioning](https://datevers.ing): each release is numbered by its UTC release date as `YY.MM.DD` (for example `26.10.23`), with `-1`, `-2`… for later releases the same day. See [CHANGELOG.md](CHANGELOG.md) for what changed in each release, and [CONTRIBUTING.md](CONTRIBUTING.md) for the release steps.
 
 ## Copyright
 
@@ -42,5 +42,5 @@ Copyright © 2026 Stux Group Ltd. All rights reserved.
 
 ---
 
-*Built & Maintained by <img src="https://global.media.stux.digital/icon.png" height="14" alt="Stux.Digital" valign="middle"> [Stux.Digital](https://github.com/StuxDigital), Hosted by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).  
-Stux.Digital is a part of the <img src="https://global.media.stux.group/icon.png" height="14" alt="Stux.Group" valign="middle"> Stux.Group brand of businesses.*
+*Built & Maintained by <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.digital/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.digital/icon-dark.png"><img src="https://global.media.stux.digital/icon-dark.png" height="14" alt="Stux.Digital" valign="middle"></picture> [Stux.Digital](https://github.com/StuxDigital), Hosted by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).  
+Stux.Digital is a part of the <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.group/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.group/icon-dark.png"><img src="https://global.media.stux.group/icon-dark.png" height="14" alt="Stux.Group" valign="middle"></picture> Stux.Group brand of businesses.*
