@@ -6,12 +6,16 @@ Thanks for your interest in contributing to this project.
 
 1. Create a feature branch off `main`.
 2. Make focused, well-described commits.
-3. Add your changes under the `[Unreleased]` section of `CHANGELOG.md`.
+3. Describe your changes in a new release entry at the top of `CHANGELOG.md` (see Versioning below).
 4. Open a pull request against `main`.
 
-## Code Style
+## Keeping the profile current
 
-Project-specific conventions will be documented here as they're established.
+`profile/README.md` is the org's public face, so update it whenever the org changes:
+
+- List every public StuxDigital repository in **Our Projects**, by its full name ("Stux.Digital Status", not "Status"), with its site. Leave private repos out, and remove retired ones
+- Keep the status page link in **Service Status** pointing at [status.stux.digital](https://status.stux.digital)
+- Use the light/dark `<picture>` logo and icons from `global.media.stux.digital`, not a single image
 
 ## Versioning
 

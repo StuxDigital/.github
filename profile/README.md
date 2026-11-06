@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://global.media.stux.digital/logo.png" height="100" alt="Stux.Digital Logo">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.digital/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.digital/logo-dark.png"><img src="https://global.media.stux.digital/logo-dark.png" height="100" alt="Stux.Digital Logo"></picture>
 </p>
 
 ## Welcome to the Stux.Digital Official GitHub!
@@ -18,10 +18,27 @@ We design, build and launch websites and digital presences for businesses, creat
 
 Stux.Digital exists to get ideas online properly: planned, designed, built and launched, then looked after once they're live.
 
+### Our Projects
+
+Our website is [stux.digital](https://stux.digital), and every client site we've taken from idea to online is listed at [clients.stux.digital](https://clients.stux.digital).
+
+| Project | What it is |
+|---|---|
+| 🗂️ [Stux.Digital Clients](https://github.com/StuxDigital/Clients) | [clients.stux.digital](https://clients.stux.digital): every client site Stux.Digital has taken from idea to online, with live status. |
+| 🚦 [Stux.Digital Status](https://github.com/StuxDigital/Status) | [status.stux.digital](https://status.stux.digital): live status of Stux.Digital and its client sites, checked every 5 minutes. |
+| 🧩 [Stux.Digital Clientpage](https://github.com/StuxDigital/clientpage) | [clientpage.stux.digital](https://clientpage.stux.digital): the placeholder a client's address shows while their site is on its way. |
+| ⏳ [Stux.Digital Soonpage](https://github.com/StuxDigital/soonpage) | [soonpage.stux.digital](https://soonpage.stux.digital): a "coming soon" page template. |
+| 🛠️ [Stux.Digital Maintenancepage](https://github.com/StuxDigital/maintenancepage) | [maintenancepage.stux.digital](https://maintenancepage.stux.digital): a maintenance page template. |
+| ↪️ [Stux.Digital GitHub Pages Redirect](https://github.com/StuxDigital/stuxdigital.github.io) | Redirects stuxdigital.github.io to this profile. |
+
 ### Get Involved
 
-1. **Explore our projects**: check out our repositories to see what we're building.
+1. **Explore our projects**: see the table above, or browse our repositories to see what we're building.
 2. **Follow us on GitHub**: stay updated on our latest releases and updates.
+
+### Service Status
+
+Check how Stux.Digital and its client sites are doing at [status.stux.digital](https://status.stux.digital).
 
 ### Contact Us
 
@@ -38,5 +55,5 @@ For legal, privacy, or copyright matters, contact [legal@stux.digital](mailto:le
 
 Thank you for visiting our profile!
 
-*Built & Maintained by <img src="https://global.media.stux.digital/icon.png" height="14" alt="Stux.Digital" valign="middle"> [Stux.Digital](https://github.com/StuxDigital), Hosted by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).  
-Stux.Digital is a part of the <img src="https://global.media.stux.group/icon.png" height="14" alt="Stux.Group" valign="middle"> Stux.Group brand of businesses.*
+*Built & Maintained by <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.digital/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.digital/icon-dark.png"><img src="https://global.media.stux.digital/icon-dark.png" height="14" alt="Stux.Digital" valign="middle"></picture> [Stux.Digital](https://github.com/StuxDigital), Hosted by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).  
+Stux.Digital is a part of the <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.group/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.group/icon-dark.png"><img src="https://global.media.stux.group/icon-dark.png" height="14" alt="Stux.Group" valign="middle"></picture> Stux.Group brand of businesses.*
