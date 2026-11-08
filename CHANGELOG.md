@@ -5,6 +5,12 @@ All notable changes to Stux.Digital's `.github` organization repository are docu
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.08
+
+### Changed
+
+- The Stux.Digital Status row says the sites are "checked regularly" instead of "checked every 5 minutes". GitHub runs the status schedule best-effort, often much less often than every 5 minutes, and the status page now shows the real check rhythm
+
 ## v26.11.06-2
 
 ### Added
