@@ -25,7 +25,7 @@ Our website is [stux.digital](https://stux.digital), and every client site we've
 | Project | What it is |
 |---|---|
 | 🗂️ [Stux.Digital Clients](https://github.com/StuxDigital/Clients) | [clients.stux.digital](https://clients.stux.digital): every client site Stux.Digital has taken from idea to online, with live status. |
-| 🚦 [Stux.Digital Status](https://github.com/StuxDigital/Status) | [status.stux.digital](https://status.stux.digital): live status of Stux.Digital and its client sites, checked every 5 minutes. |
+| 🚦 [Stux.Digital Status](https://github.com/StuxDigital/Status) | [status.stux.digital](https://status.stux.digital): live status of Stux.Digital and its client sites, checked regularly. |
 | 🧩 [Stux.Digital Clientpage](https://github.com/StuxDigital/clientpage) | [clientpage.stux.digital](https://clientpage.stux.digital): the placeholder a client's address shows while their site is on its way. |
 | ⏳ [Stux.Digital Soonpage](https://github.com/StuxDigital/soonpage) | [soonpage.stux.digital](https://soonpage.stux.digital): a "coming soon" page template. |
 | 🛠️ [Stux.Digital Maintenancepage](https://github.com/StuxDigital/maintenancepage) | [maintenancepage.stux.digital](https://maintenancepage.stux.digital): a maintenance page template. |
