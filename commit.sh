@@ -10,6 +10,14 @@ fi
 
 VERSION=$(tr -d '[:space:]' < VERSION.md)
 
+# Releases are made on test (or a branch off it). staging and main only change through
+# pull requests: test -> staging -> main.
+BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+if [ "$BRANCH" = "main" ] || [ "$BRANCH" = "staging" ]; then
+    echo "You're on $BRANCH. Releases are made on test, then go test -> staging -> main through pull requests: git switch test" >&2
+    exit 1
+fi
+
 # Date Versioning (https://datevers.ing): the UTC release date as YY.MM.DD, plus -1, -2... for later releases that day
 DATE="${VERSION%%-*}"
 if ! [[ "$VERSION" =~ ^[0-9]{2}\.(0[1-9]|1[0-2])\.(0[1-9]|[12][0-9]|3[01])(-[1-9][0-9]*)?$ ]] \
@@ -41,4 +49,7 @@ else
   echo "Tagged $TAG"
 fi
 
-echo "Done. Push with: git push origin test $TAG, then open a pull request from test into main"
+echo "Done."
+echo "Push with: git push origin $BRANCH $TAG"
+echo "Then open a pull request into staging: gh pr create --base staging --head $BRANCH"
+echo "Once staging is checked, open one from staging into main: gh pr create --base main --head staging"
